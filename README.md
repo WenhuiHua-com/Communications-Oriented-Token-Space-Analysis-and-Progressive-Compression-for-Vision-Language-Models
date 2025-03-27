@@ -55,7 +55,8 @@ After the review finished, the semantic eyes analysis and language-guided traini
 [Visual interpretation1](images/visual.png)
 
 The t-sne result：
-
-[Norm-based](images/aTSNE_analysis_Max_3D.png) 
-[Language-based](images/aTSNE_analysis_Text_3D.png) 
+[Norm-based] | [Language-based]
+--- | ---
+![](images/aTSNE_analysis_Max_3D.pn) | ![](images/aTSNE_analysis_Text_3D.png)
+ 
 
