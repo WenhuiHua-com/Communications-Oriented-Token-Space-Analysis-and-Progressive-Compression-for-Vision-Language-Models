@@ -50,13 +50,20 @@ After running, some results will be output as follows:
 After the review finished, the semantic eyes analysis and language-guided training code will be updated one after another
 
 ## Some renderings based on the language-guided visual token compression proposed in this paper
-[Visual interpretation](images/importance-visual.png) 
+ [Visual interpretation]
+---
+![](images/importance-visual)
 
-[Visual interpretation1](images/visual.png)
+ [Visual interpretation1]
+---
+![](images/visual.png)
 
-The t-sne result：
+##The t-sne result (not report in paper)
  [Language-based]
 ---
 ![](images/aTSNE_analysis_Text_3D.png)
- 
+
+ [Norm-based]
+---
+![](images/aTSNE_analysis_Max_3D.png)
 
