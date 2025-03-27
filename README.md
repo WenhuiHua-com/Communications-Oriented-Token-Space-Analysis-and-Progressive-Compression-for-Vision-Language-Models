@@ -29,16 +29,22 @@ To generate a caption for an image with the semantic-aware quantizaiton and MDC 
 <pre> python static_image_caption_hybird.py  </pre> 
 
 After running, some results will be output as follows:
+
 flickr30k-images/1921102799.jpg 100 ['a young boy playing with a soccer ball']
+
 flickr30k-images/2504007911.jpg 200 ['a person riding a bike in front of a building']
+
 flickr30k-images/2900560501.jpg 300 ['a group of people at a restaurant']
+
 flickr30k-images/327955368.jpg 400 ['a young boy playing in the leaves']
+
 flickr30k-images/3671851846.jpg 500 ['a woman standing in a field']
 
 To perform image retrieval with the semantic-aware quantizaiton and MDC coding  (The sparsity_percentage is control the R*)：
 <pre> python replace_retrieval_codebook_bpp_hybird.py  </pre> 
 
 After running, some results will be output as follows:
+
 {"test_txt_r1": 74.1, "test_txt_r5": 92.1, "test_txt_r10": 94.5, "test_txt_r_mean": 86.89999999999999, "test_img_r1": 70.26, "test_img_r5": 90.26, "test_img_r10": 94.56, "test_img_r_mean": 85.02666666666667, "test_r_mean": 85.96333333333334}
 ## follow-up work
 After the review finished, the semantic eyes analysis and language-guided training code will be updated one after another
