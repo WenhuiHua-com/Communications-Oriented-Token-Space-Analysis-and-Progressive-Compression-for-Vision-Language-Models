@@ -21,14 +21,14 @@ flick/ ├── annotation/ │ └── <annotation files> └── flickr30
 - **flickr30k-images/**: The main folder for the Flickr30k dataset images.
   - **flickr30k-images/**: Subfolder with the actual image files.
 
-Make sure to update the dataset paths in your configuration or script parameters accordingly.
+Make sure to update the dataset paths in your configuration or script parameters accordingly. Also be careful to modify the path in retrieval_flickr.yaml.
 ## Test hybird progressive token compression
 
-To generate a caption for an image:
+To generate a caption for an image with the semantic-aware quantizaiton and MDC coding:
 
 <pre> python static_image_caption_hybird.py  </pre> 
 
-To perform image retrieval：
+To perform image retrieval with the semantic-aware quantizaiton and MDC coding：
 <pre> python replace_retrieval_codebook_bpp_hybird.py  </pre> 
 
 
