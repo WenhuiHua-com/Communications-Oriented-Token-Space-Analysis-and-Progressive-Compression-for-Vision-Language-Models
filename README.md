@@ -8,7 +8,7 @@ Dependencies can be found in requirements.txt
 
 ## Download the pre-trained codebook or model from the link below and place them in the designated directory: 
 Pre-trained BLIP weights and BERT need to be downloaded before running. [BLIP]: (https://github.com/salesforce/BLIP) #In this paper, the BLIP w/ ViT-B is used.
-[BERT]:(https://drive.google.com/drive/folders/1pZAzqDwhJMvo_N9JPB1pANfjMkNlqfGe?usp=drive_link)
+[BERT]:(https://drive.google.com/drive/folders/1pZAzqDwhJMvo_N9JPB1pANfjMkNlqfGe?usp=drive_link). The BERT weights should be placed in the BERT folder.
 In order to run the feature coding for machine algorithm proposed in this paper, it is also necessary to download the codebook：
 [codebook]:(https://drive.google.com/file/d/1jv3pt70uSgXHUaRnpFujRQKNYIpAdNC0/view?usp=drive_link)
 
