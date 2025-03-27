@@ -6,7 +6,8 @@ This repository is built on the Communications-Oriented Token Space Analysisand 
 ## Requirements
 Dependencies can be found in requirements.txt
 ## matters needing attention
-Pre-trained BLIP weights and BERT need to be downloaded before running. [BLIP]: (https://github.com/salesforce/BLIP) #In this paper, the BLIP w/ ViT-B is used#. 
+Pre-trained BLIP weights and BERT need to be downloaded before running. [BLIP]: (https://github.com/salesforce/BLIP) #In this paper, the BLIP w/ ViT-B is used.
+[BERT]:(https://drive.google.com/drive/folders/1pZAzqDwhJMvo_N9JPB1pANfjMkNlqfGe?usp=drive_link)
 ## Test hybird progressive token compression
 
 To generate a caption for an image:
