@@ -5,13 +5,11 @@ This repository is built on the Communications-Oriented Token Space Analysisand 
 
 ## Requirements
 Dependencies can be found in requirements.txt
-## matters needing attention
+
+## Download the pre-trained codebook or model from the link below and place them in the designated directory: 
 Pre-trained BLIP weights and BERT need to be downloaded before running. [BLIP]: (https://github.com/salesforce/BLIP) #In this paper, the BLIP w/ ViT-B is used.
-
 [BERT]:(https://drive.google.com/drive/folders/1pZAzqDwhJMvo_N9JPB1pANfjMkNlqfGe?usp=drive_link)
-
 In order to run the feature coding for machine algorithm proposed in this paper, it is also necessary to download the codebook：
-
 [codebook]:(https://drive.google.com/file/d/1jv3pt70uSgXHUaRnpFujRQKNYIpAdNC0/view?usp=drive_link)
 
 ## Data preparation
@@ -30,7 +28,8 @@ To generate a caption for an image:
 
 <pre> python static_image_caption_hybird.py  </pre> 
 
-To perform image retrieval, run the replace_retrieval_codebook_bpp_hybird.py
+To perform image retrieval：
+<pre> python replace_retrieval_codebook_bpp_hybird.py  </pre> 
 
-## Download the pre-trained weights from the link below and place them in the designated directory: 
+
 
