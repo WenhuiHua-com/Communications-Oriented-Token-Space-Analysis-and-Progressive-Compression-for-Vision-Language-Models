@@ -46,11 +46,11 @@ class CodeBook:
         sim_matrix = torch.mm(tokens, self.book.T)  # Compute similarity between input tokens and codebook
 
         # Step 2: Get the most similar codebook entry for each token
-        sim_scores, indices = torch.topk(sim_matrix, k=1, largest=True)  # 获取相似度分数和索引
+        sim_scores, indices = torch.topk(sim_matrix, k=1, largest=True)  
         cls_token_copy = self.book[indices.squeeze()[0]]  # Select CLS token
         # Step 3: Sort these most similar entries based on similarity scores
         num_tokens_to_zero = int(tokens.size(0) * sparsity_percentage)  # Number of tokens to zero out
-        sorted_sim_scores, sorted_indices = torch.sort(attention_weight_tensor.squeeze(), descending=False)  # 按相似度升序排序
+        sorted_sim_scores, sorted_indices = torch.sort(attention_weight_tensor.squeeze(), descending=False)  
 
         # Step 4: Select the lowest similarity entries and set them to zero
         zero_indices = sorted_indices[:num_tokens_to_zero]
