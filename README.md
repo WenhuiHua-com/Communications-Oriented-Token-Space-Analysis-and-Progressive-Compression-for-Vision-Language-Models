@@ -49,4 +49,7 @@ After running, some results will be output as follows:
 ## follow-up work
 After the review finished, the semantic eyes analysis and language-guided training code will be updated one after another
 
+## Some renderings based on the language-guided visual token compression proposed in this paper
+[Visual interpretation](images/importance-visual (1).png) [Visual interpretation](images/visual.png)
+
 
