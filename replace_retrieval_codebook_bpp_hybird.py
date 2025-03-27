@@ -47,7 +47,7 @@ class CodeBook:
                 sim_scores, indices = torch.topk(sim_matrix[i], k=1, largest=True)
                 index = indices[0]
 
-                # 权重加权聚合
+            
                 wa = self.weights[index]
                 wb = importance_scores[i]
                 self.book[index] = (wa * self.book[index] + wb * token) / (wa + wb)
@@ -63,7 +63,7 @@ class CodeBook:
         cls_token_copy = self.book[indices.squeeze()[0]]  # Select CLS token
         # Step 3: Sort these most similar entries based on similarity scores
         num_tokens_to_zero = int(tokens.size(0) * sparsity_percentage)  # Number of tokens to zero out
-        sorted_sim_scores, sorted_indices = torch.sort(attention_weight_tensor.squeeze(), descending=False)  # 按相似度升序排序
+        sorted_sim_scores, sorted_indices = torch.sort(attention_weight_tensor.squeeze(), descending=False)  
 
         # Step 4: Select the lowest similarity entries and set them to zero
         zero_indices = sorted_indices[:num_tokens_to_zero]
