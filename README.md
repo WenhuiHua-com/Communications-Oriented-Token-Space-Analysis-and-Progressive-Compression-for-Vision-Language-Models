@@ -52,7 +52,7 @@ After the review finished, the semantic eyes analysis and language-guided traini
 ## Some renderings based on the language-guided visual token compression proposed in this paper
  [Visual interpretation]
 ---
-![](images/importance-visual)
+![](images/importance-visual.png)
 
  [Visual interpretation1]
 ---
