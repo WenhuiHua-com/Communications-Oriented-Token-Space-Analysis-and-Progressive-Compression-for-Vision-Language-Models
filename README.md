@@ -32,4 +32,7 @@ To perform image retrieval with the semantic-aware quantizaiton and MDC codingï¼
 <pre> python replace_retrieval_codebook_bpp_hybird.py  </pre> 
 
 
+## follow-up work
+After the review, the semantic eyes analysis and language-guided training code will be updated one after another
+
 
