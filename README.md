@@ -24,7 +24,7 @@ flick/ ├── annotation/ │ └── <annotation files> └── flickr30
 Make sure to update the dataset paths in your configuration or script parameters accordingly. Also be careful to modify the path in retrieval_flickr.yaml.
 ## Test hybird progressive token compression
 
-To generate a caption for an image with the semantic-aware quantizaiton and MDC coding (The sparsity_percentage is control the R*):
+To generate a caption for an image with the semantic-aware quantizaiton and MDC coding (The sparsity_percentage is control the \hat{N}):
 
 <pre> python static_image_caption_hybird.py  </pre> 
 
@@ -40,7 +40,7 @@ flickr30k-images/327955368.jpg 400 ['a young boy playing in the leaves']
 
 flickr30k-images/3671851846.jpg 500 ['a woman standing in a field']
 
-To perform image retrieval with the semantic-aware quantizaiton and MDC coding  (The sparsity_percentage is control the R*)：
+To perform image retrieval with the semantic-aware quantizaiton and MDC coding  (The sparsity_percentage is control the \hat{N})：
 <pre> python replace_retrieval_codebook_bpp_hybird.py  </pre> 
 
 After running, some results will be output as follows:
