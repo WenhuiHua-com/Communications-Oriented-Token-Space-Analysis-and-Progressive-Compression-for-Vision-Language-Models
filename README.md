@@ -1,5 +1,5 @@
 # Communications-Oriented-Token-Space-Analysis-and-Progressive-Compression-for-Vision-Language-Models
-Test code for articles submitted to IEEE Transactions on Communications
+Test code for articles submitted to IEEE Journal on Selected Areas in Communications
 
 This repository is built on the Communications-Oriented Token Space Analysisand Progressive Compression for Vision-Language Models
 
