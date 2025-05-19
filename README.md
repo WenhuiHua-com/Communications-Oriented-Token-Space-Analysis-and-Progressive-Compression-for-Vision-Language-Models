@@ -58,7 +58,7 @@ After the review finished, the semantic eyes analysis and language-guided traini
 ---
 ![](images/visual.png)
 
-##The t-sne result (not report in paper)
+##The t-sne result
  [Language-based]
 ---
 ![](images/aTSNE_analysis_Text_3D.png)
