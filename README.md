@@ -46,7 +46,7 @@ After running, some results will be output as follows:
 
 {"test_txt_r1": 74.1, "test_txt_r5": 92.1, "test_txt_r10": 94.5, "test_txt_r_mean": 86.89999999999999, "test_img_r1": 70.26, "test_img_r5": 90.26, "test_img_r10": 94.56, "test_img_r_mean": 85.02666666666667, "test_r_mean": 85.96333333333334}
 ## LDPC BLER Data Acquisition 
-LDPC-5G-NR.exe -K 1024  -R 0.5 -BP
+ldpc-5-g-nr-master.zip LDPC-5G-NR.exe -K 1024  -R 0.5 -BP
 
 ## follow-up work
 After the review finished, the semantic eyes analysis and language-guided training code will be updated one after another
