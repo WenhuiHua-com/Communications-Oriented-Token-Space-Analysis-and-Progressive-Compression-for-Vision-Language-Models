@@ -49,8 +49,11 @@ After running, some results will be output as follows:
 The executable used is LDPC-5G-NR.exe (packed in ldpc-5-g-nr-master.zip).
 Below are concise instructions and examples for running the tool to collect BLER data (example command: LDPC-5G-NR.exe -K 1024 -R 0.5 -BP).
 
+## Latency Experiment 
+The latency performance evaluation is implemented in the Latency.m MATLAB file.
+
 ## follow-up work
-After the review finished, the semantic eyes analysis and language-guided training code will be updated one after another
+After the review finished, the language-guided training code will be updated.
 
 ## Some renderings based on the language-guided visual token compression proposed in this paper
  [Visual interpretation]
