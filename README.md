@@ -1,6 +1,6 @@
-# Token Space Analysis and Vision Token Compression for Large Vision-Language Models
+# Channel-Awared Vision Token Compression for Partitioned Large Vision-Language Models in Mobile Computing
 Test code for articles submitted to IEEE Transactions on Mobile Computing
-This repository is built on the Token Space Analysis and Vision Token Compression for Large Vision-Language Models
+
 
 ## Requirements
 Dependencies can be found in requirements.txt
