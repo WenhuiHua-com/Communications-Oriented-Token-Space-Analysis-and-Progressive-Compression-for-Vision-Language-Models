@@ -21,7 +21,7 @@ flick/ ├── annotation/ │ └── <annotation files> └── flickr30
   - **flickr30k-images/**: Subfolder with the actual image files.
 
 Make sure to update the dataset paths in your configuration or script parameters accordingly. Also be careful to modify the path in retrieval_flickr.yaml.
-## Test hybird progressive token compression
+## Test hybrid progressive token compression
 
 To generate a caption for an image with the semantic-aware quantizaiton and MDC coding (The sparsity_percentage is control the \hat{N}):
 
