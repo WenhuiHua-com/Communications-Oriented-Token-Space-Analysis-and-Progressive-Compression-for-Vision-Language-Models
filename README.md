@@ -54,7 +54,8 @@ The latency performance evaluation is implemented in the Latency.m MATLAB file.
 
 ## follow-up work
 After the review finished, the language-guided training code will be updated.
-
+## References
+The code is implemented based on  [BLIP]: (https://github.com/salesforce/BLIP) . We thank the contributors for their great work!
 ## Some renderings based on the language-guided visual token compression proposed in this paper
  [Visual interpretation]
 ---
