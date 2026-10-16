@@ -54,6 +54,20 @@ The latency performance evaluation is implemented in the Latency.m MATLAB file.
 
 ## Training
 See [codebook training instructions](training/README.md).
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{hua2026channelaware,
+  author = {Hua, Wenhui and Chen, Dezhao and Zhou, Jianyang and Chen, Lingyu and Hong, Xuemin and Cheng, Xiang},
+  title = {{Channel-Aware Vision Token Compression for Partitioned Large Vision-Language Models in Mobile Computing}},
+  journal = {IEEE Transactions on Mobile Computing},
+  year = {2026},
+  doi = {10.1109/tmc.2026.3742782}
+}
+```
+
 ## References
 The code is implemented based on  [BLIP]: (https://github.com/salesforce/BLIP) . We thank the contributors for their great work!
 ## Some renderings based on the language-guided visual token compression proposed in this paper
