@@ -223,9 +223,9 @@ image_token, importance_score = load_tokens_and_scores('image_token_0.5.pth', 'i
 for tokens, scores in zip(image_token, importance_score):
     add_to_codebook(tokens.unsqueeze(0), scores, codebook)
 # Save the codebook.
-codebook.save('codebook_retrieval_New_复现.pth')
+codebook.save('codebook_retrieval_New.pth')
 # Evaluate the codebook.
-codebook.load('codebook_retrieval_New_复现.pth')
+codebook.load('codebook_retrieval_New.pth')
 print('Training Finished')
 # Evaluate the codebook.
 count = 0

@@ -13,4 +13,4 @@ Before running, edit `New_code-book-search-fast.py`:
 PYTHONPATH=. python training/New_code-book-search-fast.py
 ```
 
-The script runs sequentially: it saves visual tokens to `image_token_0.5.pth` and importance scores to `importance_score_0.5.pth`, reads these caches to train the codebook, saves `codebook_retrieval_New_复现.pth`, and then evaluates it. Output files are written to the current working directory.
+The script runs sequentially: it saves visual tokens to `image_token_0.5.pth` and importance scores to `importance_score_0.5.pth`, reads these caches to train the codebook, saves `codebook_retrieval_New.pth`, and then evaluates it. Output files are written to the current working directory.
