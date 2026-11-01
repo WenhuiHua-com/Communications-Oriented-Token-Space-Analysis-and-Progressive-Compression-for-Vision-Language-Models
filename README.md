@@ -1,5 +1,5 @@
 # Channel-Aware Vision Token Compression for Partitioned Large Vision-Language Models in Mobile Computing
-Test code for articles submitted to IEEE Transactions on Mobile Computing.  If you think it's useful, please give it a star. Thank you！
+The implementation code for Channel-Aware Vision Token Compression for Partitioned Large Vision-Language Models in Mobile Computing.  If you think it's useful, please give it a star. Thank you！
 
 
 ## Requirements
